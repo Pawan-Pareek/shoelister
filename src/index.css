@@ -1,0 +1,299 @@
+body {
+  color: #fff;
+}
+
+.nav {
+  position: relative;
+  height: 66px;
+  margin-left: 0px;
+  margin-top: 0px;
+  background: #4E2305;
+}
+
+.title {
+  position: relative;
+  width: 268px;
+  height: 67px;
+  margin-left: 56px;
+  margin-top: 3px;
+
+  font-family: 'Jockey One';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 67px;
+  letter-spacing: 0.14em;
+  text-decoration: none;
+
+  color: #FFFFFF;
+}
+
+.title-cate-men {
+  position: relative;
+  width: 87px;
+  height: 34px;
+  margin-left: 330px;
+  margin-top: 18px;
+
+  font-family: 'Impact';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 34px;
+  letter-spacing: 0.07em;
+
+  color: #FFFFFF;
+
+  text-decoration: none;
+
+}
+
+.title-cate {
+  position: relative;
+  width: 87px;
+  height: 34px;
+  margin-left: 30px;
+  margin-top: 18px;
+
+  font-family: 'Impact';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 34px;
+  letter-spacing: 0.07em;
+
+  color: #FFFFFF;
+
+  text-decoration: none;
+
+}
+
+#non-hover:hover {
+  color: #FFFFFF;
+}
+
+#heart:hover {
+  color: #e8077b;
+}
+
+
+
+.heart-icon {
+  position: relative;
+  margin-top: 10px;
+  margin-left: 330px;
+  text-decoration: none;
+  color: #e8077b;
+  width: 54px;
+  height: 50px;
+  font-size: xx-large;
+
+}
+
+
+.icon {
+  position: relative;
+  margin-top: 10px;
+  margin-left: 15px;
+  text-decoration: none;
+  color: #FFFFFF;
+  width: 54px;
+  height: 50px;
+  font-size: xx-large;
+}
+
+.column1 {
+  float: left;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 760px;
+  padding: 50px;
+  height: 550px;
+  /* Should be removed. Only for demonstration */
+  background: #4E2305;
+  margin-top: 20px;
+  margin-left: 30px;
+}
+
+.column2 {
+  float: left;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  width: 730px;
+  padding: 50px;
+  height: 550px;
+  /* Should be removed. Only for demonstration */
+  background-color: #fff;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  background-color: #bbb;
+}
+
+.row {
+  width: 100vw;
+  position: relative;
+}
+
+.shoe1 {
+  position: absolute;
+  /* margin-top: 110px;
+  margin-left: 530px; */
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  height: 400px;
+
+}
+
+.n-desg {
+  position: absolute;
+  width: 624px;
+  height: 123px;
+  /* left: 150px;
+top: 150px; */
+
+  font-family: 'Lobster';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 96px;
+  line-height: 120px;
+  letter-spacing: 0.06em;
+
+  color: #FFFFFF;
+}
+
+.lt-fs {
+  position: absolute;
+  width: 632px;
+  height: 123px;
+  /* left: 850px;
+top: 450px; */
+
+  font-family: 'Lobster';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 96px;
+  line-height: 120px;
+  letter-spacing: 0.06em;
+
+  color: #4E2305;
+
+}
+
+.man {
+  color: black;
+}
+
+.categ {
+
+  font-family: 'Jockey One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 89px;
+  text-align: center;
+
+
+  color: #4E2305;
+}
+
+.men-cat {
+  width: 485px;
+  height: 345px;
+  padding: 0px 20px;
+  
+  
+}
+
+.men-cat-text {
+  /* position: relative; */
+  /* width: 345px;
+  height: 84px;
+  margin-left: 545px; */
+  /* display: inline-block; */
+  font-family: 'Jockey One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 67px;
+  text-align: center;
+  text-decoration: none;
+  margin: 0px 10px;
+  color: #4E2305;
+
+}
+
+/* #men-id-text :hover {
+  color: #4E2305;
+  
+} */
+
+.women-cat{
+  width: 445px;
+  height: 355px;
+}
+.main-cat{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.cat-row{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.row1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.men-cat-text:hover{
+  color: #4E2305;
+}
+
+.men-cate-div{
+  display: flex;
+  justify-content: center;
+  /* flex-direction: column; */  
+}
+
+.men-cate-img{
+  height: 370px;
+  /* margin-top: 40px; */
+  border: 4px solid #4E2305;
+  margin-top: 40px;
+}
+
+.men-cont{
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  row-gap: 20px;
+  flex-wrap: wrap;
+  align-items: center;
+  /* border : 2px solid black; */
+  width: 90vw;
+  margin-left: 65px;
+    
+    
+}
+
+.men-shoe-cat{
+  height: 255px;
+  width: 345px;
+  
+  border: #4E2305 4px solid;
+
+}
+
